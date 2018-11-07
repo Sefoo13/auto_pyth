@@ -9,4 +9,4 @@ class Welcome(object):
         self.driver.find_element_by_id("Sign_up").click()
 
     def Test(self):
-        return SignUp()
+        return SignIn()
